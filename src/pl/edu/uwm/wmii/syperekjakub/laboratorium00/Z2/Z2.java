@@ -11,16 +11,17 @@ public class Z2 {
 
     public static <E> void wypiszCoDrugi(int[] x){
         for(int i=0; i<3; i++){
-            if (i % 2 == 0){
+            if (i % 2 == 1){
+                System.out.println('x' + ",");
 
             }
 
         }
     }
 
-
-
     public static void main(String[] args) {
-        System.out.println("xyzzy");
+        int[] x = {1,2,3};
+
+
     }
 }

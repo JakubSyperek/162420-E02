@@ -5,9 +5,6 @@ public class Klasa {
 
     public Object jestPalindromem;
 
-    static {
-    }
-
     public Klasa(Object jestPalindromem) {
         this.jestPalindromem = jestPalindromem;
     }
